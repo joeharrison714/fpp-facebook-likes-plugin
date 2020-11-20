@@ -1,0 +1,20 @@
+{
+	"repoName": "fpp-facebook-likes",
+	"name": "Facebook Likes Fetcher",
+	"author": "Joe Harrison (joeharrison714)",
+	"description": "Fetch facebook likes.",
+	"homeURL": "https://github.com/joeharrison714/fpp-facebook-likes-plugin",
+	"srcURL": "https://github.com/joeharrison714/fpp-facebook-likes-plugin.git",
+	"bugURL": "https://github.com/joeharrison714/fpp-facebook-likes-plugin/issues",
+	"allowUpdates": 1,
+	"versions": [
+		{
+			"minFPPVersion": "4.0",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			}
+		}
+	]
+}

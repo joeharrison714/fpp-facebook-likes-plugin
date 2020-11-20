@@ -1,6 +1,8 @@
 <?php
 include_once "/opt/fpp/www/common.php"; //Alows use of FPP Functions
 
+$pluginName = basename(dirname(__FILE__));
+
 $message ="";
 if ($_GET["page_access_token"]){
     $message = "a page access token was provided!";
@@ -29,7 +31,9 @@ if (strlen($message) > 0){
 }
 ?>
 
-<form action="auth.php" method="get">
+<form action="plugin.php" method="get">
+<input type="hidden" name="plugin" value="<?= $pluginName ?>" />
+<input type="hidden" name="page" value="auth.php" />
 <table cellspacing="5">
 
 
